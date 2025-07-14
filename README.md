@@ -60,7 +60,6 @@ lib/
 - Question Screen  
 - Result Screen  
 
-(*You can add actual screenshots here using Markdown syntax like `![Start](assets/screenshots/start.png)`*)
 
 ---
 
