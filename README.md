@@ -22,58 +22,61 @@ This is a simple and interactive Quiz application built with Flutter. Users can 
 - Page navigation using widget structure
 - Custom fonts with `Google Fonts`
 - Using local images via `Image.asset`
-- Shuffling answers dynamically with `shuffledAnswers()` method
+- Shuffling answers dynamically with `getShuffledAnswers()` method
 
 ---
 
 ## 📁 Project Structure
 
 ```
+
 lib/
-├── main.dart               # Entry point of the app
-├── quiz.dart               # Root widget managing app state
-├── start_screen.dart       # Welcome/start screen UI
-├── questions_screen.dart   # Quiz screen with questions & options
-├── results_screen.dart     # Result screen showing user's performance
-├── questions_summary.dart  # Widget showing answer summary
+├── main.dart               \# Entry point of the app
+├── quiz.dart               \# Root widget managing app state
+├── start\_screen.dart       \# Welcome/start screen UI
+├── questions\_screen.dart   \# Quiz screen with questions & options
+├── results\_screen.dart     \# Result screen showing user's performance
+├── questions\_summary.dart  \# Widget showing answer summary
 ├── data/
-│   └── questions.dart      # List of questions and answers
+│   └── questions.dart      \# List of questions and answers
 ├── models/
-│   └── quiz_question.dart  # Model class for a quiz question
-├── answer_button.dart      # Reusable button widget for answers
+│   └── quiz\_question.dart  \# Model class for a quiz question
+├── answer\_button.dart      \# Reusable button widget for answers
+
 ```
 
 ---
 
 ## 🛠️ How to Run
 
-1. Make sure Flutter is installed on your machine.
-2. Open the project directory in your terminal or IDE.
-3. Run `flutter pub get` to install dependencies.
-4. Use `flutter run` to start the app on an emulator or device.
+1.  Make sure Flutter is installed on your machine.
+2.  Open the project directory in your terminal or IDE.
+3.  Run `flutter pub get` to install dependencies.
+4.  Use `flutter run` to start the app on an emulator or device.
 
 ---
 
 ## 📸 Screenshots
 
-- Start Screen  
-- Question Screen  
-- Result Screen  
-
+*(You can add screenshots here if you like)*
+- Start Screen
+- Question Screen
+- Result Screen
 
 ---
 
 ## 📝 Notes
 
-- All questions are stored in `questions.dart`.
-- The correct answer is always the **first** item in the `answers` list.
+- All questions are stored in `lib/data/questions.dart`.
+- The correct answer is always the **first** item in the `answers` list for each question object in `questions.dart`.
 - The app is optimized for portrait mode on mobile devices.
 
 ---
 
 ## 🧑‍💻 Developer
 
-**Ceren Yaşar – 2025**  
+**Ceren Yaşar – 2025**
 This app was developed as part of my Flutter learning journey.
 
 ---
+```
